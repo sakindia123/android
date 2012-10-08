@@ -152,9 +152,9 @@
 <!--  <project path="device/moto/stingray" name="device/moto/stingray" />-->
 <!--  <project path="device/moto/wingray" name="device/moto/wingray" />-->
   <project path="device/sample" name="device/sample" />
-  <project path="device/samsung/crespo" name="device/samsung/crespo" />
-  <project path="device/samsung/crespo4g" name="device/samsung/crespo4g" />
-  <project path="device/samsung/maguro" name="device/samsung/maguro" />
+  <!--project path="device/samsung/crespo" name="device/samsung/crespo"/>-->
+  <!--project path="device/samsung/crespo4g" name="device/samsung/crespo4g" />-->
+  <!--project path="device/samsung/maguro" name="device/samsung/maguro" />-->
   <project path="device/samsung/torospr" name="device/samsung/torospr" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
   <project path="external/android-mock" name="platform/external/android-mock" />
