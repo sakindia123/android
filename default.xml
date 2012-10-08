@@ -7,6 +7,13 @@
   <remote  name="github"
            fetch="git://github.com/Evervolv/"
            review="review.evervolv.com"/>
+  <remote  name="cm"
+           fetch="git://github.com/CyanogenMod/"
+           review="review.cyanogenmod.com"/>
+  <remote  name="kang"
+           fetch="git://github.com/sakindia123/"/>
+  <remote  name="blob"
+           fetch="git://github.com/TheMuppets/"/>
   <default revision="refs/tags/android-4.1.1_r4"
            remote="aosp"
            sync-j="4" />
@@ -120,7 +127,7 @@
   <project path="vendor/ev" name="android_vendor_ev" remote="github" revision="jellybean" />
   <project path="vendor/hp" name="android_vendor_hp" remote="github" revision="jellybean" />
   <project path="vendor/htc" name="android_vendor_htc" remote="github" revision="jellybean" />
-  <project path="vendor/samsung" name="android_vendor_samsung" remote="github" revision="jellybean"/>
+  <project path="vendor/samsung" name="proprietary_vendor_samsung" remote="blob" revision="jellybean"/>
 
 
   <!--Aosp-->
