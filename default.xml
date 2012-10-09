@@ -14,13 +14,15 @@
            fetch="git://github.com/sakindia123/"/>
   <remote  name="blob"
            fetch="git://github.com/TheMuppets/"/>
+  <remote  name="nexus"
+           fetch="git://github.com/supernexus/"/>
   <default revision="refs/tags/android-4.1.1_r4"
            remote="aosp"
            sync-j="4" />
 
 
   <!--Evervolv-->
-  <project path="build" name="android_build" remote="github" revision="jellybean">
+  <project path="build" name="android_build" remote="nexus" revision="jellybean">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 <!--  <project path="bootable/recovery" name="android_bootable_recovery" remote="github" revision="jellybean"/>-->
