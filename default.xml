@@ -12,7 +12,7 @@
            review="review.cyanogenmod.com"/>
   <remote  name="kang"
            fetch="git://github.com/sakindia123/"/>
-   <default revision="refs/tags/android-4.1.2_r1"
+  <default revision="refs/tags/android-4.1.2_r1"
            remote="aosp"
            sync-j="4" />
 
@@ -108,10 +108,7 @@
   <project path="system/wlan/ti" name="android_system_wlan_ti" remote="github" revision="jellybean"/>
   <project path="vendor/asus" name="android_vendor_asus" remote="github" revision="jellybean"/>
   <project path="vendor/ev" name="android_vendor_ev" remote="github" revision="jellybean" />
-  <project path="vendor/hp" name="android_vendor_hp" remote="github" revision="jellybean" />
   <project path="vendor/htc" name="android_vendor_htc" remote="github" revision="jellybean" />
-  <project path="vendor/samsung" name="proprietary_vendor_samsung" remote="blob" revision="jellybean"/>
-
 
   <!--Aosp-->
   <project path="abi/cpp" name="platform/abi/cpp" />
@@ -126,13 +123,7 @@
   <project path="device/generic/goldfish" name="device/generic/goldfish" />
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" />
-<!--  <project path="device/moto/common" name="device/moto/common" />-->
-<!--  <project path="device/moto/stingray" name="device/moto/stingray" />-->
-<!--  <project path="device/moto/wingray" name="device/moto/wingray" />-->
   <project path="device/sample" name="device/sample" />
-  <!--project path="device/samsung/crespo" name="device/samsung/crespo"/>-->
-  <!--project path="device/samsung/crespo4g" name="device/samsung/crespo4g" />-->
-  <!--project path="device/samsung/maguro" name="device/samsung/maguro" />-->
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
   <project path="external/android-mock" name="platform/external/android-mock" />
   <project path="external/antlr" name="platform/external/antlr" />
