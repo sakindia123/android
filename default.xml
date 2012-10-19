@@ -14,22 +14,19 @@
            fetch="git://github.com/sakindia123/"/>
   <remote  name="blob"
            fetch="git://github.com/TheMuppets/"/>
-  <remote  name="nexus"
-           fetch="git://github.com/SuperNexus/"/>
-  <default revision="refs/tags/android-4.1.1_r4"
+  <default revision="refs/tags/android-4.1.2_r1"
            remote="aosp"
            sync-j="4" />
 
 
   <!--Evervolv-->
-  <project path="build" name="android_build" remote="nexus" revision="jellybean">
+  <project path="build" name="android_build" remote="github" revision="jellybean">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 <!--  <project path="bootable/recovery" name="android_bootable_recovery" remote="github" revision="jellybean"/>-->
   <project path="bionic" name="android_bionic" remote="github" revision="jellybean"/>
   <project path="dalvik" name="android_dalvik" remote="github" revision="jellybean"/>
   <project path="device/asus/grouper" name="android_device_asus_grouper" remote="github" revision="jellybean"/>
-  <project path="device/samsung/toro" name="android_device_samsung_toro" remote="github" revision="jellybean"/>
   <project path="device/samsung/tuna" name="android_device_samsung_tuna" remote="github" revision="jellybean"/>
   <project path="device/ti/panda" name="android_device_ti_panda" remote="github" revision="jellybean"/>
   <project path="external/aac" name="android_external_aac" remote="github" revision="jellybean"/>
