@@ -91,7 +91,7 @@
   <project path="external/rsync" name="android_external_rsync" remote="github" revision="jellybean" />
   <project path="external/su" name="android_external_su" remote="github" revision="jellybean" />
   <project path="external/vim" name="android_external_vim" remote="github" revision="jellybean" />
-  <project path="external/wpa_supplicant" name="android_external_wpa_supplicant" remote="github" revision="jellybean"/>
+  <project path="external/wpa_supplicant" name="android_external_wpa_supplicant" remote="cm" revision="jellybean"/>
   <project path="hardware/atheros" name="android_hardware_atheros" remote="github" revision="jellybean" />
   <project path="hardware/qcom/camera" name="android_hardware_qcom_camera" remote="github" revision="jellybean" />
   <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="cm" revision="jellybean" />
