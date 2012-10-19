@@ -31,15 +31,15 @@
   <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="github" revision="jellybean"/>
   <project path="external/freetype" name="android_external_freetype" remote="github" revision="jellybean"/>
   <project path="external/fsck_msdos" name="android_external_fsck_msdos" remote="github" revision="jellybean"/>
-  <project path="external/guava" name="android_external_guava" remote="github" revision="jellybean"/>
-  <project path="external/openssl" name="android_external_openssl" remote="github" revision="jellybean"/>
+  <project path="external/guava" name="android_external_guava" remote="cm" revision="jellybean"/>
+  <project path="external/openssl" name="android_external_openssl" remote="cm" revision="jellybean"/>
   <project path="external/skia" name="android_external_skia" remote="cm" revision="jellybean"/>
   <project path="external/srec" name="android_external_srec" remote="cm" revision="jellybean"/>
   <project path="external/webkit" name="android_external_webkit" remote="cm" revision="jellybean"/>
   <project path="external/webrtc" name="android_external_webrtc" remote="cm" revision="jellybean"/>
   <project path="external/wpa_supplicant_6" name="android_external_wpa_supplicant_6" remote="cm" revision="jellybean"/>
   <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" remote="cm" revision="jellybean"/>
-  <project path="external/yaffs2" name="android_external_yaffs2" remote="github" revision="jellybean"/>
+  <project path="external/yaffs2" name="android_external_yaffs2" remote="cm" revision="jellybean"/>
   <project path="external/zlib" name="android_external_zlib" remote="github" revision="jellybean"/>
   <project path="frameworks/av" name="android_frameworks_av" remote="github" revision="jellybean"/>
   <project path="frameworks/base" name="android_frameworks_base" remote="github" revision="jellybean"/>
