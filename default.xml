@@ -33,10 +33,10 @@
   <project path="external/fsck_msdos" name="android_external_fsck_msdos" remote="github" revision="jellybean"/>
   <project path="external/guava" name="android_external_guava" remote="github" revision="jellybean"/>
   <project path="external/openssl" name="android_external_openssl" remote="github" revision="jellybean"/>
-  <project path="external/skia" name="android_external_skia" remote="github" revision="jellybean"/>
-  <project path="external/srec" name="android_external_srec" remote="github" revision="jellybean"/>
-  <project path="external/webkit" name="android_external_webkit" remote="github" revision="jellybean"/>
-  <project path="external/webrtc" name="android_external_webrtc" remote="github" revision="jellybean"/>
+  <project path="external/skia" name="android_external_skia" remote="cm" revision="jellybean"/>
+  <project path="external/srec" name="android_external_srec" remote="cm" revision="jellybean"/>
+  <project path="external/webkit" name="android_external_webkit" remote="cm" revision="jellybean"/>
+  <project path="external/webrtc" name="android_external_webrtc" remote="cm" revision="jellybean"/>
   <project path="external/wpa_supplicant_6" name="android_external_wpa_supplicant_6" remote="cm" revision="jellybean"/>
   <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" remote="cm" revision="jellybean"/>
   <project path="external/yaffs2" name="android_external_yaffs2" remote="github" revision="jellybean"/>
@@ -54,7 +54,7 @@
   <project path="hardware/ril" name="android_hardware_ril" remote="cm" revision="jellybean"/>
   <project path="hardware/ti/wlan" name="android_hardware_ti_wlan" remote="github" revision="jellybean"/>
   <project path="hardware/ti/wpan" name="android_hardware_ti_wpan" remote="github" revision="jellybean"/>
-  <project path="libcore" name="android_libcore" remote="github" revision="jellybean"/>
+  <project path="libcore" name="android_libcore" remote="cm" revision="jellybean"/>
   <project path="packages/apps/Browser" name="android_packages_apps_Browser" remote="github" revision="jellybean" />
   <project path="packages/apps/Camera" name="android_packages_apps_Camera" remote="github" revision="jellybean" />
   <project path="packages/apps/CMWimaxSettings" name="android_packages_apps_CMWimaxSettings" remote="github" revision="jellybean" />
@@ -91,7 +91,6 @@
   <project path="external/rsync" name="android_external_rsync" remote="github" revision="jellybean" />
   <project path="external/su" name="android_external_su" remote="github" revision="jellybean" />
   <project path="external/vim" name="android_external_vim" remote="github" revision="jellybean" />
-  <project path="external/wpa_supplicant" name="android_external_wpa_supplicant" remote="cm" revision="jellybean"/>
   <project path="hardware/atheros" name="android_hardware_atheros" remote="github" revision="jellybean" />
   <project path="hardware/qcom/camera" name="android_hardware_qcom_camera" remote="github" revision="jellybean" />
   <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="cm" revision="jellybean" />
